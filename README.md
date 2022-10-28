@@ -84,10 +84,10 @@ A list of valid timezones is available at https://en.wikipedia.org/wiki/List_of_
 You can deploy this prototype in a lab environment, dCloud instance, or on your own deployment.
 You would then need to either input your details through the web GUI or edit a config file below.
 
-#### Umbrella details:
-You need to have your _VMANAGE IP Address, USERNAME, and PASSWORD_.
+#### vManage details:
+You need to have your _VMANAGE IP Address, USERNAME, and PASSWORD_ /
 
-Fill in the details of your SD-WAN deployment in the [DETAILS.py](viptela-upgrade/DETAILS.py) file
+Fill in the details of your SD-WAN deployment in the [DETAILS.py](viptela-upgrade/DETAILS.py) file or enter them while logging in.
 ```python
 HOST = ''
 USERNAME = ''
